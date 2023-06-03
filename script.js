@@ -16,10 +16,10 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // Se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Foto de Bruna Kroth clara")
+    img.setAttribute("alt", "Foto de Bruna Kroth.")
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Foto de Bruna Kroth sorrindo")
+    img.setAttribute("alt", "Foto de Bruna Kroth.")
   }
 }
